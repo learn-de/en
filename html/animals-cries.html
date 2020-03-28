@@ -1,0 +1,591 @@
+<html lang="ar" dir=rtl>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Learning Arabic</title>
+    <link rel="stylesheet" href="https://eliechaaya.github.io/ar/css/styles.css">
+
+<style>
+
+body {
+  background-image: linear-gradient(#71e6ff, #ffffff) !important; /* Standard syntax (must be last) */
+  background-size: 100% 100%  !important;
+}
+
+body{
+background: url(https://raw.githubusercontent.com/eliechaaya/ar/master/img/bg-animals.gif)no-repeat !important;
+background-size: 100% 100%  !important;
+}
+</style> 	
+</head>
+
+<body  class="nbody" >
+    <header class="header">
+        <p><a href=""></a><span></span></p>
+    </header>
+	<div class="custom-design">
+		        <ul class="models1"></ul>
+        <ul class="letters1"></ul>
+	</div>
+    <div class="game">       
+        <img class="figure" src="https://raw.githubusercontent.com/eliechaaya/ar/master/img/animals-cries.png">
+
+        <ul class="models_caption"></ul>
+        <ul class="models"></ul>
+        <ul class="letters"></ul>
+
+        <a class="prev" href="animals-ar.html#"><img   src="https://raw.githubusercontent.com/eliechaaya/ar/master/img/btn_prev_150.png" width="50px" height="50px"></a>
+        <a class="next" href="animals-ar.html#"><img  src="https://raw.githubusercontent.com/eliechaaya/ar/master/img/btn_next_150.png" width="50px" height="50px"></a>
+        <a class="levl" href="animals-ar.html#" ></a>
+    </div>
+
+    <div class="warning">
+        <p>Sorry, Your Android App doesn't support<br>audio element.</p>
+    </div>
+
+    <div class="ad">
+            <a class="ad-close" href="animals-ar.html#"></a>
+    </div>
+
+<script src="https://eliechaaya.github.io/ar/js/interact.min.js"></script>
+<script src="https://eliechaaya.github.io/ar/js/buzz.min.js"></script>
+
+	<div class="container"><img id="disa" src="https://raw.githubusercontent.com/eliechaaya/ar/master/img/hand.gif" width="90px" height="90px" class="disaimag" ></div>
+	
+	
+	<script type="text/javascript">
+	window.setTimeout("document.getElementById('disa').style.display='none';", 3000);
+	</script>
+
+
+	<script type="text/javascript">
+var i= Math.floor(Math.random() * 3);
+
+(function () {
+    var games = [
+	
+	  { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/animals-cries.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',        voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/title',caption:'',caption_Ar:'أصوات 🐶' ,sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/title' },
+
+	
+       { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/dog'+i+'.gif', color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'dog',        voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/dog',caption:'dog 🔊',caption_Ar:'كلب 🔊' ,sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/dog' },
+
+		 
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/mouse'+i+'.png', color: 'linear-gradient(#71e6ff, #ffffff)',    word: '',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/mouse' ,caption:'Mouse 🐘',caption_Ar:'فأر 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/mouse', voice_en:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/parrot'},
+
+
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/parrot'+i+'.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'parrot',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/parrot' ,caption:'parrot 🔊',caption_Ar:'ببغاء 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/parrot'},
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/cat'+i+'.png',
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'cat',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/cat' ,caption:'cat 🔊',caption_Ar:'قط 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/cat'  },
+		
+		
+		
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/turtle'+i+'.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/turtle',caption:'turtle',caption_Ar:'سلحفاة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/turtle'   },
+		
+		
+		
+			
+        { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/fish'+i+'.gif', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'fish',  voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/fish',caption:'fish',caption_Ar:'سمكة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/fish'  },
+		
+       
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/horse'+i+'.gif', color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'horse',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/horse',caption:'horse 🔊',caption_Ar:'حصان 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/horse'  },
+		
+        { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/donkey'+i+'.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'donkey',  voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/donkey',caption:'donkey 🔊',caption_Ar:'حمار 🔊' ,sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/donkey' },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/goat'+i+'.png',
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'goat',      voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/goat',caption:'goat 🔊',caption_Ar:'ماعز 🔊' ,sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/goat' },
+		
+	
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/chicken'+i+'.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'chicken', voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/chicken',caption:'chicken  🔊',caption_Ar:'دجاجة 🔊' ,sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/chicken' },
+		
+      
+		
+        { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/cow'+i+'.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'cow',         voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/cow',caption:'cow 🔊',caption_Ar:'بقرة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/cow' },
+		
+     
+		
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/snake'+i+'.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'snake',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/snake',caption:'Snake 🔊',caption_Ar:'ثعبان 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/snake' },
+		 
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/fox'+i+'.png', 
+		 color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'fox',        voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/fox' ,caption:'Fox 🔊',caption_Ar:'ثعلب 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/fox'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/frog'+i+'.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'frog',       voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/frog' ,caption:'frog 🔊',caption_Ar:'ضفدع 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/frog'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/rabbit.png',
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'rabbit',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/rabbit' ,caption:'rabbit 🔊',
+		caption_Ar:'أرنب 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/rabbit'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/Beaver.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'beaver',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/beaver' ,caption:'Beaver 🔊',
+		caption_Ar:'قندس 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/beaver'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/panda.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'panda', voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/panda' ,caption:'Panda 🔊',caption_Ar:'باندا 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/panda'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/mole.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'mole',        voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/mole' ,caption:'Mole 🔊',caption_Ar:'خلد 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/mole'  },
+		
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/crocodile.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'crocodile',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/crocodile',caption:'Crocodile 🔊',caption_Ar:'تمساح 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/crocodile' },
+		 
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/giraffe.png', 
+		 color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'giraffe',     voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/giraffe',caption:'Giraffe 🔊',caption_Ar:'زرافة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/giraffe'  },
+		 
+		 
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/bear.gif', 
+		 color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'bear',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/bear' ,caption:'Bear 🔊',caption_Ar:'دب 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/bear'  },
+		 
+		  { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/lion.png', 
+		  color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'Lion', voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/lion',caption:'Lion 🔊',caption_Ar:'اسد 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/lion'},
+		  
+
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/wolf.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'wolf',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/wolf',caption:'wolf 🔊',caption_Ar:'ذئب 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/wolf' },
+		
+		
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/duck.gif', 
+		 color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'Duck',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/duck',caption:'Duck 🔊',caption_Ar:'بطة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/duck' },
+		 
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/owl.png', 
+		 color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'owl',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/owl' ,caption:'owl 🔊',caption_Ar:'بومة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/owl'},
+		 
+		 
+		 { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/pigeon.gif', 
+		 color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'pigon',    voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/pigeon',caption:'Pigeon 🔊',caption_Ar:'حمامة 🔊' ,sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/pigeon' },
+		 
+		 
+		 
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/seagull.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'seagull',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/seagull' ,caption:'Seagull 🔊',caption_Ar:'نورس 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/seagull'},
+		
+		
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/eagle.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'eagle',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/eagle' ,caption:'eagle 🔊',caption_Ar:'نسر 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/eagle'},
+		
+				
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/spider.gif', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'spider',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/spider' ,caption:'spider',caption_Ar:'عنكبوت 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/spider'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/ladybug.gif', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'ladybird',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/ladybird' ,caption:'ladybird',caption_Ar:'دعسوقة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/ant'  },
+		
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/snail.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'snail',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/snail' ,caption:'snail',caption_Ar:'حلزون 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/snail'  },
+				
+		
+       { img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/dolphin.png', 
+	   color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'dolphin',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/dolphin' ,caption:'dolphin 🔊',caption_Ar:'دلفين 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/dolphin'  },
+
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/crab.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'crab',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/crab' ,caption:'Crab',caption_Ar:'سلطعون 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/crab'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/seal.png', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'seal',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/seal' ,caption:'seal 🔊',caption_Ar:'فقمة 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/seal'  },
+		
+		{ img: 'https://raw.githubusercontent.com/eliechaaya/ar/master/img/whale.gif', 
+		color: 'linear-gradient(#71e6ff, #ffffff)',  word: 'whale',   voice: 'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/animals/whale' ,caption:'whale 🔊',caption_Ar:'حوت 🔊',sound:'https://raw.githubusercontent.com/eliechaaya/sounds/master/sounds/cries/whale'  }
+		
+       
+        
+    ];
+    //var playicon = ' 🔊';
+
+    var $html     = $('html'),
+        $link     = $('.header a'),
+        $warning  = $('.warning'),
+        $ad       = $('.ad'),
+        $adClose  = $('.ad a'),
+        $figure   = $('.figure'),
+        $letters  = $('.letters'),
+        $models   = $('.models'),
+        $letters1  = $('.letters1'),
+        $models1   = $('.models1'),
+        $models_caption   = $('.models_caption'),
+        $prev     = $('.prev'),
+        $next     = $('.next'),
+        $levl     = $('.levl');
+
+    var index     = 0,
+        score     = 0,
+        alphabet  = 'abcdefghijklmnopqrstuvwxyz'.split(''),
+        click     = 'ontouchstart' in $html ? 'touchstart' : 'mousedown';
+
+    // Buzz & sounds
+
+    if (!buzz.isSupported()) {
+        $warning.style.visibility = 'visible';
+    }
+
+    buzz.defaults.formats = [ 'ogg', 'mp3' ];
+    buzz.defaults.preload = 'metadata';
+
+    var sounds = {
+        win:  new buzz.sound('sounds/win'),
+        fail: new buzz.sound('sounds/fail'),
+        //dice: new buzz.sound('sounds/dice'),
+        blup: new buzz.sound('sounds/blup')
+    };
+
+    for (var g in games) {
+        var game = games[g];
+        sounds[game.sound] = new buzz.sound(game.sound);
+
+        var img = new Image();
+        img.src = game.img;
+    }
+    for (var g in games) {
+        var game = games[g];
+        sounds[game.caption] = new buzz.sound(game.voice);
+
+        var img = new Image();
+        img.src = game.img;
+    }
+
+    for (var s in alphabet) {
+        sounds[alphabet[s]] = new buzz.sound('sounds/kid/' + alphabet[s]);
+    }
+
+    // Go to previous Game
+
+    $prev.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        prevGame();
+    });
+
+    function prevGame () {
+        if (--index <= 0) {
+            index = games.length - 1;
+        }
+
+        setGame(index);
+    }
+
+    // Go to next game
+
+    $next.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        nextGame();
+    });
+
+    function nextGame () {
+        if (++index >= games.length) {
+            index = 0;
+        }
+
+        setGame(index);
+    }
+
+    // Change level
+
+    $levl.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        if ($levl.textContent == 'harder') {
+            $levl.textContent = 'easier';
+            $models.classList.add('hard');
+            $models1.classList.add('hard');
+        } else {
+            $levl.textContent = 'harder';
+            $models.classList.remove('hard');
+            $models1.classList.remove('hard');
+        }
+    });
+
+    // Play sound illustration is clicked
+
+    $figure.addEventListener('click', function (e) {
+        sounds[games[index].sound].play();
+        setAnimation($figure, 'bouncing');
+    });
+
+    // Hide ad
+
+    $adClose.addEventListener('click', function (e) {
+        e.preventDefault();
+        $ad.style.display = 'none';
+    });
+
+    // Set a new Game
+
+    function setGame(index) {
+        var $li,
+            game            = games[index],
+            gameSound       = sounds[game.sound],
+            wordLetters     = game.word.split(''),
+            caption         = game.caption,
+            caption_Ar_new  = game.caption_Ar,
+            caption_Ar      = game.caption_Ar.split(''),
+            color           = game.color,
+            shuffledLetters = shuffleLetters(caption_Ar);
+
+        $html.classList.add('transitionable');
+        $html.classList.remove('won');
+
+        // Reset score
+
+        score = 0;
+
+        // Change background
+
+        $html.style.background = game.color;
+        $link.style.color = game.color;
+
+        // Change Figure
+
+        $figure.src = game.img;
+
+        setAnimation($figure, 'bouncing');
+
+        // Build Models
+
+        $models.innerHTML = '';
+        $models1.innerHTML = '';
+        $models_caption.innerHTML = '';
+
+        // for (var a in wordLetters) {
+        //     $li = document.createElement('li');
+        //     $li.className = 'model';
+        //     $li.dataset.letter = wordLetters[a];
+        //     $models1.appendChild($li);
+        // }
+        $li = document.createElement('li');
+        $li.className = 'model1';
+        if(caption_Ar_new != ''){
+            var text = document.createTextNode(caption_Ar_new);
+        }else{
+            var text = document.createTextNode(caption_Ar_new);
+        }
+
+        $li.appendChild(text);
+        // $li.addEventListener("click", play, false);
+        $li.addEventListener('click', function (e) {
+            play();
+            setAnimation($models1, 'bouncing');
+        });
+        $models1.appendChild($li);
+        setAnimation($models1, 'bouncing');
+        $li = document.createElement('li');
+        $li.className = 'model2';
+        var text1 = document.createTextNode(caption);
+
+        $li.appendChild(text1);
+        $li.addEventListener('click', function (e) {
+            play();
+            setAnimation($models_caption, 'bouncing');
+        });
+
+        $models_caption.appendChild($li);
+        setAnimation($models_caption, 'bouncing');
+        for (var a in caption_Ar) {
+            $li = document.createElement('li');
+            $li.className = 'model';
+            $li.dataset.letter = caption_Ar[a];
+
+            $models.appendChild($li);
+        }
+
+        interact('.model').dropzone({
+            overlap: 0.10,
+            ondragenter: function (event) {
+                event.target.classList.add('hovered');
+            },
+            ondragleave: function (event) {
+                event.target.classList.remove('hovered');
+            },
+            ondrop: function (event) {
+                var $droppable = event.target,
+                    $draggable = event.relatedTarget;
+
+                $droppable.classList.remove('hovered');
+
+                if (!$droppable.classList.contains('done') && $draggable.dataset.letter == $droppable.dataset.letter) {
+                    sounds.blup.play();
+
+                    $draggable.style.visibility = 'hidden';
+
+                    $droppable.classList.add('done');
+                    $droppable.classList.add('bouncing');
+
+                    if (++score == caption_Ar.length) {
+                        winGame();
+                    }
+                } else {
+                    sounds.fail.play();
+
+                    moveElement(event.dragEvent, $draggable);
+
+                    setAnimation($draggable, 'bouncing', true);
+                }
+            }
+        });
+
+        setAnimation($models, 'shown');
+        setAnimation($models1, 'shown');
+
+        // Build Letters
+
+        $letters.innerHTML = '';
+        $letters1.innerHTML = '';
+
+        for (var b in shuffledLetters) {
+            $li = document.createElement('li');
+            $li.className = 'letter';
+            $li.dataset.letter = shuffledLetters[b];
+
+            // $letters1.appendChild($li);
+        }
+        for (var b in shuffledLetters) {
+            $li = document.createElement('li');
+            $li.className = 'letter';
+            $li.dataset.letter = shuffledLetters[b];
+
+            $letters.appendChild($li);
+        }
+
+        interact('.letter').draggable({
+            onmove: moveElement,
+            onstart: function (event) {
+                var letter = event.target.dataset.letter;
+
+                if (sounds[letter]) {
+                    sounds[letter].play();
+                }
+
+                event.target.style.zIndex = parseInt(new Date().getTime() / 1000);
+            }
+        });
+
+        setAnimation($letters, 'thrown');
+        // setAnimation($letters1, 'thrown');
+
+        // Play sounds
+
+        gameSound.play();
+
+        setTimeout(function () {
+            sounds.dice.play();
+        }, 1000);
+
+        // Disable transition
+
+        setTimeout(function () {
+            $html.classList.remove('transitionable');
+        }, 1500);
+    }
+
+    // When a Game is won
+
+    function winGame () {
+        $html.classList.add('won');
+        $html.classList.add('transitionable');
+
+        $('.model', true).forEach(function ($model) {
+            $model.classList.remove('bouncing');
+
+            setAnimation($model, 'flipping');
+        });
+
+        sounds.win.play();
+
+        setTimeout( function() {
+            nextGame();
+        }, 3000);
+    }
+
+    // InteractJS drag function
+
+    function moveElement (event, $elmt) {
+        var x, y, dir = -1;
+
+        if (!$elmt) {
+            $elmt = event.target;
+            dir = 1;
+        }
+
+        x = ((parseFloat($elmt.getAttribute('data-x')) || 0) + event.dx * dir);
+        y = ((parseFloat($elmt.getAttribute('data-y')) || 0) + event.dy * dir);
+        r = getRotationValue($elmt);
+
+        $elmt.setAttribute('data-x', x);
+        $elmt.setAttribute('data-y', y);
+        $elmt.style.transform = 'translate(' + x + 'px, ' + y + 'px) rotate(' + r + 'deg)';
+    }
+
+    function setAnimation ($elmt, className, remove) {
+        $elmt.classList.remove(className);
+        $elmt.offsetHeight;
+        $elmt.classList.add(className);
+
+        if (remove) {
+            $elmt.addEventListener("animationend", function () {
+                $elmt.classList.remove(className);
+            });
+
+            $elmt.addEventListener("transitionend", function () {
+                $elmt.classList.remove(className);
+            });
+        }
+    }
+
+    // Get the rotation value of the letter
+
+    function getRotationValue ($elmt) {
+
+        var style = window.getComputedStyle($elmt, null);
+
+        var t = style.getPropertyValue("-webkit-transform") ||
+                style.getPropertyValue("-moz-transform") ||
+                style.getPropertyValue("-ms-transform") ||
+                style.getPropertyValue("-o-transform") ||
+                style.getPropertyValue("transform") ||
+                '';
+
+        var values = t.split('(')[1],
+            values = values.split(')')[0],
+            values = values.split(',');
+
+        var b = values[1];
+
+        return Math.round(Math.asin(b) * (180 / Math.PI));
+    }
+    // Shuffle letters
+
+    function shuffleLetters (array) {
+        return array.slice().reverse().sort(function () {
+            return 0.5 - Math.random();
+        });
+    }
+
+    // Selector function
+
+    function $ (selector, all) {
+        if (all) {
+            return [].slice.call(document.querySelectorAll(selector));
+        }
+
+        return document.querySelector(selector);
+    }
+    function play(){
+        sounds[games[index].caption].play();
+    }
+    // Start Game
+
+    setGame(index);
+    setAnimation($html, 'started', false);
+})();
+
+
+	</script>	
+
+</body>
+</html>
