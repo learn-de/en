@@ -99,7 +99,7 @@ left: -30%;
 </style>	
 	
 </head>
-<body class="nbody" >
+<BODY oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
     <header class="header">
         <p><a href=""></a><span></span></p>
     </header>
@@ -108,7 +108,7 @@ left: -30%;
         <ul class="letters1"></ul>
 	</div>
     <div class="game">       
-        <img class="figure" src="https://raw.githubusercontent.com/learn-de/de/master/images/education/school2-de.png">
+        <img class="figure" src="https://raw.githubusercontent.com/learn-de/en/master/images/education/school-en.png">
         <ul class="models_caption"></ul>
         <ul class="models"></ul>
         <ul class="letters"></ul>
@@ -137,53 +137,53 @@ left: -30%;
 (function () {
     var games = [
 	
-	  { img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/school2-de.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',   sound: 'sounds/',caption:'',caption_Ar:'🖋️ School' ,voice:'' },
+	  { img: 'https://raw.githubusercontent.com/learn-de/en/master/images/education/school-en.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',   sound: 'sounds/',caption:'',caption_Ar:'🖋️ School' ,voice:'' },
 
  	  
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/school.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education0',caption:' مدرسة 🔊' ,caption_Ar:'die Schule 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education0','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education0'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/school.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education0',caption:' مدرسة 🔊' ,caption_Ar:'School 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education0','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education0'},
 
  
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/blackboard.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education3',
-caption:'سبورة (لوح) 🔊' ,caption_Ar:'die Tafel 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education3','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education3'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/blackboard.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education3',
+caption:'سبورة (لوح) 🔊' ,caption_Ar:'Blackboard 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education3','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education3'},
 
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/chalk.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education4',caption:' طباشير 🔊' ,caption_Ar:'die Kreide 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education4','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education4'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/chalk.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education4',caption:' طباشير 🔊' ,caption_Ar:'Chalk 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education4','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education4'},
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/teacher.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education5',caption:' معلم/ معلمة 🔊' ,caption_Ar:'der Lehrer 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education5','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education5'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/teacher.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education5',caption:' معلم/ معلمة 🔊' ,caption_Ar:'Teacher 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education5','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education5'},
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/student.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education7',caption:' طالب 🔊' ,caption_Ar:'der Sch\u00fcler 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education7','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education7'},
-
-
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/backpack.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education9',caption:' حقيبة ظهر 🔊' ,caption_Ar:'der Rucksack 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education9','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education9'},
-
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/book.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education10',caption:'كتاب 🔊' ,caption_Ar:'das Buch 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education10','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education10'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/student.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education7',caption:' طالب 🔊' ,caption_Ar:'Student 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education7','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education7'},
 
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/notebook.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education11',caption:'دفتر 🔊' ,caption_Ar:'Das Notizbuch 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education11','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education11'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/backpack.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education9',caption:' حقيبة ظهر 🔊' ,caption_Ar:'Backpack 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education9','voice_english':'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/ar/cat_education9'},
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/ruler.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education12',caption:'مسطرة 🔊' ,caption_Ar:'das Lineal 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education12','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education12'},
-
-
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/paper.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education13',caption:'ورقة 🔊' ,caption_Ar:'das Papier 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education13','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education13'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/book.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education10',caption:'كتاب 🔊' ,caption_Ar:'Book 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education10','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education10'},
 
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/pen.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education14',caption:'قلم حبر 🔊' ,caption_Ar:'der Stift 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education14','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education14'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/notebook.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education11',caption:'دفتر 🔊' ,caption_Ar:'Notebook 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education11','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education11'},
+
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/ruler.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education12',caption:'مسطرة 🔊' ,caption_Ar:'Ruler 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education12','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education12'},
 
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/sharpener.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education15',caption:'مبراة 🔊' ,caption_Ar:'der Anspitzer 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education15','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education15'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/paper.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education13',caption:'ورقة 🔊' ,caption_Ar:'Paper 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education13','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education13'},
+
+
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/pen.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education14',caption:'قلم حبر 🔊' ,caption_Ar:'Pen 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education14','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education14'},
+
+
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/sharpener.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education15',caption:'مبراة 🔊' ,caption_Ar:'Sharpener 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education15','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education15'},
 
 
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/dictionary.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education17',caption:'قاموس 🔊' ,caption_Ar:'das W\u00f6rterbuch 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education17','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education17'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/dictionary.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education17',caption:'قاموس 🔊' ,caption_Ar:'Dictionary 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education17','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education17'},
 
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/eraser.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education18',caption:'ممحاة 🔊' ,caption_Ar:'der Radiergummi 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education18','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education18'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/eraser.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education18',caption:'ممحاة 🔊' ,caption_Ar:'Erasor 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education18','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education18'},
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/map.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education19',caption:'خريطة 🔊' ,caption_Ar:'die Karte 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education19','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education19'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/map.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education19',caption:'خريطة 🔊' ,caption_Ar:'Map 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education19','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education19'},
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/pc.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education20',caption:'حاسوب 🔊' ,caption_Ar:'der Computer 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education20','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education20'},
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/pc.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education20',caption:'حاسوب 🔊' ,caption_Ar:'Computer 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education20','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education20'},
 
-{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/printer.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education22',caption:'طابعة 🔊' ,caption_Ar:'der Drucker 🔊', voice: 'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/cat_education22','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education22'}
+{ img: 'https://raw.githubusercontent.com/learn-de/de/master/images/education/printer.png', color: 'linear-gradient(#71e6ff, #ffffff)',  word: '',  sound: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education22',caption:'طابعة 🔊' ,caption_Ar:'Printer 🔊', voice: 'https://raw.githubusercontent.com/learn-de/en/master/sounds/education/cat_education22','voice_english':'https://raw.githubusercontent.com/learn-de/de/master/sounds/education/ar/cat_education22'}
 
 
        
